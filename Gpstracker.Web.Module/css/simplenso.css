@@ -1,0 +1,267 @@
+/* General */
+body {
+        padding-bottom: 40px;
+      }
+/* Side Nav */
+.sidebar-nav {
+        padding: 9px 0;
+      }
+
+/* Bootstrap Data Tables Styles */
+div.dataTables_length label {
+	float: left;
+	text-align: left;
+}
+
+div.dataTables_length select {
+	width: 75px;
+}
+
+div.dataTables_filter label {
+	float: right;
+}
+
+div.dataTables_info {
+	padding-top: 8px;
+}
+
+div.dataTables_paginate {
+	float: right;
+	margin: 0;
+}
+
+table {
+	margin: 1em 0;
+	clear: both;
+}
+
+table.dataTable th:active {
+	outline: none;
+}
+.dataTables_filter input, .dataTables_length select {
+ display: inline-block;
+  *display: inline;
+  margin-bottom: 0;
+  *zoom: 1;
+}
+
+.sort-index, .hidden {
+	left: -10000px;
+    position: absolute;
+    top: -10000px;
+    visibility: hidden;
+}
+/* Comment Table */
+.comment-table tbody tr td {
+vertical-align:top;
+}
+.member-avatar img {
+border: 1px solid #DDDDDD;
+padding: 1px;
+text-align: center;
+margin-top: 5px;
+margin-left: auto;
+margin-right: auto;
+float: left;
+}
+table.member-info {
+margin-top: 5px;
+line-height:10px;
+clear: none;
+}
+table.member-info tbody tr td {
+line-height:15px;
+}
+.comment-info {
+margin-bottom:2px;
+}
+.post-toolbar {
+cursor:pointer;
+}
+tr .post-toolbar {
+	visibility:hidden;
+}
+
+tr:hover .post-toolbar {
+	visibility: visible;
+}
+
+/* Portlets */
+.box {
+	margin-bottom:10px;
+}
+.box h4.box-header {
+	size:10px;
+	padding: 7px 7px;
+  margin: 0;
+  list-style: none;
+  cursor:move;
+}
+
+
+.box-content {
+	padding:10px;
+}
+
+.box-btn {
+ 	float:right;
+	margin-left:2px;
+	margin-right:2px;
+	height: 14px;
+	width: 14px;
+	text-decoration:none;
+	display: block;
+	float: right;
+	overflow: hidden;
+	background-position:center;
+	cursor:pointer;
+}
+
+.box-btn [class^="icon-"], .box-btn [class*=" icon-"] { 
+	vertical-align:top;
+}
+
+.box-container-closed {
+	display:none;
+}
+
+/* Portlets */
+.box-placeholder {
+	background-color: #f5f5f5;
+	border: 1px dashed #DDDDDD;
+	display: block;
+	/* float: left;*/
+    margin-bottom: 13px !important;
+	margin-left: 1%;
+	margin-right: 0.6%;
+}
+.box-placeholder * {
+	visibility:hidden;
+}
+.column {
+	min-height:20px;
+}
+
+/* Member Box - Side Nav */
+.member-box {
+	
+  display:block;
+  padding:10px;
+  
+}
+
+img.member-box-avatar {
+	height:50px;
+	width:50px;
+	padding:1px;
+	margin-right:10px;
+	float:left;
+}
+
+.member-box-links {
+	font-size:85%;	
+}
+
+/* Dashboard  */
+#dashboard-visit-map, #dashboard-new-registrations-gauge-chart {
+	clear:both;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#dashboard-new-registrations-gauge-chart {
+	padding-top:30px;
+}
+
+
+ul.dashboard-statistics, ul.dashboard-member-activity {
+	margin: 10px 0;
+}
+.box ul.dashboard-statistics li, ul.dashboard-member-activity li {
+	list-style: none;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+ul.dashboard-statistics li:first-child, ul.dashboard-member-activity li:first-child {
+	border-top: none;
+	padding-top:0;
+}
+ul.dashboard-statistics li:last-child, ul.dashboard-member-activity li:last-child {
+	border-bottom: none;
+	padding-bottom:0;
+}
+ul.dashboard-statistics li a {
+
+	display: block;
+	line-height: 10px;
+	text-decoration: none;
+}
+ul.dashboard-member-activity li a {
+
+	display: inline;
+	text-decoration: none;
+}
+ul.dashboard-statistics li a:hover, ul.dashboard-member-activity li a:hover {
+
+}
+ul.dashboard-statistics li a span {
+	display: inline-block;
+ *display: inline;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+	text-align: right;
+	width: 70px;
+	zoom: 1;
+}
+ul.dashboard-statistics i[class*=icon] {
+	margin-left: 15px;
+}
+
+
+img.dashboard-member-activity-avatar {
+	height:50px;
+	width:50px;
+	padding:1px;
+	float:left;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#dashboard-new-registrations-gauge-chart table {
+	background-color:transparent;
+}
+/* Calendar */
+.external-event {
+	margin-bottom:20px;
+}
+
+/* Show Grid */
+.show-grid {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.show-grid [class*="span"] {
+
+    line-height: 30px;
+    min-height: 30px;
+    text-align: center;
+}
+.show-grid .show-grid {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* Forms */
+.box form {
+	margin:0;
+}
+
+.box .form-actions {
+	margin-bottom:0px;
+}
+
+.cke_textarea {
+	margin-top:10px;
+	margin-bottom:10px;	
+}

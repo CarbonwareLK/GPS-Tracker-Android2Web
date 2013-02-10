@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <TextView
+            android:id="@+id/login_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Blue" />
+
+        <EditText
+            android:id="@+id/login_username_et"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:background="#262626"
+            android:height="35dp"
+            android:padding="2dp"
+            android:text="Rala User"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <TextView
+            android:id="@+id/login_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="password"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Blue" />
+
+        <EditText
+            android:id="@+id/login_password_et"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:background="#262626"
+            android:height="35dp"
+            android:inputType="textPassword"
+            android:padding="2dp"
+            android:text="test123"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="15dp" >
+
+        <Button
+            android:id="@+id/login_view_bt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/login_view_bt_cancel"
+            android:layout_weight="2.32"
+            android:background="@drawable/custom_details_button_rs"
+            android:padding="15sp"
+            android:text="Login"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#F7F7F7" />
+
+        <Button
+            android:id="@+id/login_view_bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/cctv_camera_live_stream_caputrebutton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="2.50"
+            android:background="@drawable/custom_details_button_rs"
+            android:padding="15sp"
+            android:text="Close"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#F7F7F7" />
+    </RelativeLayout>
+
+</LinearLayout>

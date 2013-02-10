@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Gpstracker.Android.Module</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Test GPS</string>
+    <string name="title_activity_main">Gpstracker Location Tracker </string>
+    <string name="settings_controller_number">Controller Number</string>
+    <string name="settings_time_range">Time Range</string>
+    <string name="settings_btsave">Save</string>
+    <string name="settings_btreset">Reset</string>
+
+</resources>
